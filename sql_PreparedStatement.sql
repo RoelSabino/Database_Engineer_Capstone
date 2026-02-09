@@ -1,1 +1,1 @@
-PREPARE GetOrderInfo FROM 'SELECT customers.FullName, orders.OrderID, menus.MenuName, menus.MenuDescription, orders.Quantity, menus.MenuPrice, orders.TotalCost FROM cutomers NATURAL JOIN orders NATURAL JOIN menus WHERE CustomerID = ? ';
+PREPARE GetOrderDetail FROM 'SELECT customers.FullName, orders.OrderID, menus.MenuName, menus.MenuDescription, orders.Quantity, menus.MenuPrice, orders.TotalCost FROM cutomers NATURAL JOIN orders NATURAL JOIN menus WHERE CustomerID = ? ';
