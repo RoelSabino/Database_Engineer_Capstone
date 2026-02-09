@@ -1,0 +1,9 @@
+Please run the sql queries:
+
+1. sql_PopulateCustomers.sql
+2. sql_PopulateOrders.sql
+
+in mySQL first before running the last statement in the Jupyter Notebook file. Otherwise the output will be empty.
+
+Thanks!
+ 
