@@ -1,9 +1,20 @@
-Please run the sql queries:
+Please run the sql queries in mySQL first before running the last statement in the Jupyter Notebook file. 
+Otherwise the output of the last select statement will be empty:
 
 1. sql_PopulateCustomers.sql
 2. sql_PopulateOrders.sql
 
-in mySQL first before running the last statement in the Jupyter Notebook file. Otherwise the output will be empty.
+
+
+
+More notes:
+-----------
+- In the folder are complete project files with saved mySQL Workbench file, Tableau file and Jupyter Notebook file. 
+- Run the sql_ForwardEngineer.sql script in mySQL Workbench to deploy the database "little_lemon"
+- In my testserver, user name = "roel", password = "", please change to your local server authentication accordingly
+- There are images files of the steps taken. 
+- Separate sql scripts are saved for inspection and/or execution. 
+
 
 Thanks!
  
